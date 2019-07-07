@@ -8,7 +8,7 @@ array = string.split
 to_return.join(" ")
 end
 
-def reverse_each_word_with_collect(string)
+def reverse_each_word(string)
 #return the sentence with each word reversed in place
 array = string.split
 to_return = array.collect {|word| word.reverse}
